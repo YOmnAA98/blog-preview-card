@@ -61,6 +61,11 @@ main .content .card .card-text p{
 }
 main .content .card .card-title h2{
     font-size: 1.375rem;
+    cursor: pointer;    
+    transition: color 0.3s ease;
+}
+main .content .card .card-title h2:hover{
+    color: #F6D050;
 }
 main .content .card .card-text p{
     color: #868686;
